@@ -12,6 +12,8 @@
 <svelte:head>
     <title>🐿️ Squirrel Stories</title>
 </svelte:head>
+
+<!-- TODO: use server actions so json isn't leaked to client -->
 <main>
   <div class="header">
     <h1>🐿️ Squirrel Stories 🐿️</h1>

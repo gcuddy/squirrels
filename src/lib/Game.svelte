@@ -49,8 +49,6 @@
   });
 </script>
 
-<!-- TODO: use server actions so json isn't leaked to client -->
-
 <h2>Choose the <em>fake</em> squirrel story:</h2>
 <button
   on:click={() => {
