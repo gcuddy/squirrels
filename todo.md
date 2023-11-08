@@ -1,0 +1,3 @@
+- keep track of right and wrong answers
+- use sveltekit server actions
+- incorporate more data about human stories (hectare, topics, etc.)
