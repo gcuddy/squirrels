@@ -49,7 +49,9 @@
   });
 </script>
 
-<h2>Choose the <em>fake</em> squirrel story:</h2>
+<!-- TODO: reveal more data about human stories? -->
+
+<h2>One of these stories is written by a real-world squirrel sighter. The other is written by ChatGPT. Choose the <em>fake</em> squirrel story:</h2>
 <button
   on:click={() => {
     chosen = false;
@@ -78,5 +80,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    padding-bottom: 2rem;
   }
 </style>
